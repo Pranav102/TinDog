@@ -1,0 +1,194 @@
+#body2{
+  font-family: 'Montserrat', sans-seri;
+  }
+
+#title{
+
+ background-color:#ff4c68;
+ padding-left: 15%;
+ padding-right: 15%;
+
+}
+/*mene jaanbug ke left aur right ki padding title mei daali becoz
+ container-fluid mei vo override naghi ho rahi thi vo bar bar apne defalut
+ state mei aa rahi thi isse padding  nahi ho paa rahi thi..*/
+.container-fluid{
+
+  padding-top: 3%;
+  padding-bottom: 150px;
+
+}
+
+#heading1{
+
+  font-family: 'Montserrat', sans-seri;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bolder;
+  color: #fff;
+  }
+  h3{
+    font-weight: 700 !important;
+  }
+  h2{
+    font-weight: bolder !important;
+    line-height: 1.5 !important;
+  }
+
+
+  /* navigationbar */
+  .navbar.navbar-expand-lg.navbar-dark {
+    padding: 0 0 4.5rem;
+  }
+
+  #navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    font-size: 2rem;
+    color: #fff;
+  }
+  .nav-item{
+    padding: 0 18px;
+  }
+  .nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat',sans-seri;
+    font-weight:lighter;
+  }
+  .download-button{
+    margin-right: 20px;
+    margin-bottom: 80px;
+  }
+.title-image{
+  width:60%;
+  right: 100px;
+  transform:rotate(25deg);
+  position: absolute;
+
+}
+@media (max-width:1028px){
+  .title-image{
+
+    position:static;
+   transform:rotate(0);  /*since the image position initially was  absolute therefore we need to change the degree to 0 for right upwards */
+
+  }
+#title{
+  text-align: center;
+}
+
+}
+
+
+
+
+/* features */
+#features{
+  padding:5% 15%;
+  background-color: #fff;
+  position:relative;
+   z-index: 1; /* z-index position ke baad mention karna hoga  */
+
+    }
+
+.icons{
+  text-align: center;
+}
+
+.grey{
+  color:#8f8f8f;
+}
+
+.heading3{
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+.ss{
+  color:#ef8172;
+  margin-bottom: 1rem;
+
+}
+.ss:hover{
+  color:#ff4c68;
+}
+
+
+
+/* testimonial */
+#testimonials{
+  text-align:center;
+  color:#fff;
+  background-color: #ef8172;
+
+  }
+  .testimonial-image{
+    border-radius: 4rem;
+    width:7rem;
+  }
+
+
+
+/* press */
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 5%;
+
+}
+.press-logo{
+  width:150px;
+  margin:20px 20px 50px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+
+
+
+
+
+/* pricing */
+#pricing{
+  text-align: center;
+  padding :100px 100px;
+}
+.card-header{
+  background-color: #ff4c68 !important;
+  color: #fff;
+}
+
+
+
+
+
+
+/* call to action */
+#cta{
+  padding:7% 15%;
+  background-color: #ef8172;
+  text-align: center;
+  color:#fff;
+}
+.lower-download-button{
+  margin-top: 50px;
+}
+.btn.btn-dark.btn-lg.lower-download-button{
+  margin-right: 20px;
+}
+.btn.btn-outline-light.btn-lg.lower-download-button{
+  margin-left: 20px;
+}
+
+
+
+
+
+/* footer */
+#footer{
+  padding:7% 10%;
+  text-align: center;
+
+}
+.contact{
+  margin: 10px 10px 10px 10px;
+}
